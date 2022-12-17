@@ -14,7 +14,7 @@
 </p>
 <p>Example images can be found in image_data.json</p> -->
 
-<div class="max-w-[95%] mx-auto">
+<div class="max-w-[80%] mx-auto">
   {#each images as imagesPack} 
 	<PicturesViewer images={imagesPack.images} />
   {/each}
