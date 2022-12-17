@@ -9,7 +9,7 @@
 		}
 	];
 	const imgPositionClass =
-		'aspect-video object-cover w-full h-full object-bottom hover:brightness-75 transition-all ease-in';
+		'aspect-square object-cover w-full h-full object-bottom hover:brightness-75 transition-all ease-in';
 	const visibleImages = [...images].slice(0, 5);
 	const carouselImages = images.map((i, idx) => {
 		return { id: idx, name: 'image', imgurl: i.image_url, attribution: 'view' };
